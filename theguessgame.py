@@ -1,6 +1,5 @@
 print("########################################\n#  Hi , I am Mr.G host of the game.    #\n#  So I welcome you to The Guess Game  #\n########################################\nThe game is like you guess the word i am thinking of , and you get infinite tries to guess with a percentage match of word every time you guess as a hint.\n\nIf you want to quit game at any point type '*close'. \nOk Lets Start !\n")
-#words=['work', 'hard', 'sir', 'i', 'goona', 'tell', 'you', 'something', 'that', 'is', 'not', 'a', 'number', 'fort', 'happy', 'sad', 'kill', 'bill', 'cat', 'bat', 'name', 'fame', 'jam', 'coat', 'boat', 'bald', 'salt', 'car', 'train', 'airplane', 'aeroplane', 'rocket', 'laptop', 'jacket', 'pocket', 'screen', 'display', 'nut', 'cult', 'charger', 'file', 'rubber', 'bolt']
-words=["bill","ball"]
+words=['work', 'hard', 'sir', 'i', 'goona', 'tell', 'you', 'something', 'that', 'is', 'not', 'a', 'number', 'fort', 'happy', 'sad', 'kill', 'bill', 'cat', 'bat', 'name', 'fame', 'jam', 'coat', 'boat', 'bald', 'salt', 'car', 'train', 'airplane', 'aeroplane', 'rocket', 'laptop', 'jacket', 'pocket', 'screen', 'display', 'nut', 'cult', 'charger', 'file', 'rubber', 'bolt']
 total=len(words)
 from secrets import randbelow
 from difflib import SequenceMatcher
